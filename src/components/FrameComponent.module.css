@@ -1,7 +1,8 @@
 .createAccount1,
-.email {
-  font-family: var(--body-small-body-small-400);
+.email,
+.thanhlocofyai {
   position: relative;
+  font-family: var(--body-small-body-small-400);
   text-align: left;
 }
 .createAccount1 {
@@ -11,50 +12,59 @@
   font-weight: 600;
   color: var(--gray-scale-gray-900);
 }
-.email {
-  width: 100%;
-  border: 0;
-  outline: 0;
-  font-size: var(--body-medium-body-medium-500-size);
-  background-color: transparent;
-  height: 21px;
-  flex: 1;
-  line-height: 130%;
-  color: var(--gray-scale-gray-400);
+.email,
+.thanhlocofyai {
+  font-size: var(--body-small-body-small-400-size);
+  line-height: 150%;
+  color: var(--color-black);
   display: inline-block;
-  min-width: 250px;
-  max-width: 100%;
-  padding: 0;
+  min-width: 38px;
+}
+.thanhlocofyai {
+  color: var(--gray-scale-gray-500);
+  min-width: 114px;
+  white-space: nowrap;
+}
+.inputField,
+.loopController {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .inputField {
-  align-self: stretch;
+  width: 300px;
   border-radius: var(--br-7xs);
   background-color: var(--gray-scale-white);
   border: 1px solid var(--gray-scale-gray-100);
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-sm) var(--padding-mini);
-  max-width: 100%;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-base);
 }
+.loopController {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.input,
 .password {
-  width: calc(100% - 50px);
-  border: 0;
-  outline: 0;
   font-family: var(--body-small-body-small-400);
-  font-size: var(--body-medium-body-medium-500-size);
-  background-color: transparent;
-  height: 21px;
-  flex: 1;
+  font-size: var(--body-small-body-small-400-size);
   position: relative;
-  line-height: 130%;
-  color: var(--gray-scale-gray-400);
+  line-height: 150%;
   text-align: left;
   display: inline-block;
-  min-width: 150px;
-  max-width: calc(100% - 20px);
+}
+.password {
+  color: var(--color-black);
+  min-width: 68px;
+}
+.input {
+  width: 116px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 21px;
+  color: var(--gray-scale-gray-500);
   padding: 0;
 }
 .eyeOpen1Icon {
@@ -64,36 +74,46 @@
   overflow: hidden;
   flex-shrink: 0;
 }
+.inputField1,
+.loopController1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
 .inputField1 {
-  align-self: stretch;
-  flex: 1;
+  height: 49px;
+  width: 300px;
   border-radius: var(--br-7xs);
   background-color: var(--gray-scale-white);
   border: 1px solid var(--gray-scale-gray-100);
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  padding: var(--padding-sm) var(--padding-mini);
-  max-width: 100%;
+  padding: var(--padding-sm) var(--padding-base);
+  gap: var(--gap-xl);
 }
-.confirmPassword {
-  width: calc(100% - 50px);
-  border: 0;
-  outline: 0;
+.loopController1 {
+  align-self: stretch;
+}
+.input1,
+.retypePassword {
   font-family: var(--body-small-body-small-400);
-  font-size: var(--body-medium-body-medium-500-size);
-  background-color: transparent;
-  height: 21px;
-  flex: 1;
+  font-size: var(--body-small-body-small-400-size);
   position: relative;
-  line-height: 130%;
-  color: var(--gray-scale-gray-400);
+  line-height: 150%;
   text-align: left;
   display: inline-block;
-  min-width: 150px;
-  max-width: calc(100% - 20px);
+}
+.retypePassword {
+  color: var(--color-black);
+  min-width: 121px;
+}
+.input1 {
+  width: 116px;
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  height: 21px;
+  color: var(--gray-scale-gray-500);
   padding: 0;
 }
 .eyeOpen1Icon1 {
@@ -104,25 +124,31 @@
   flex-shrink: 0;
 }
 .field1,
-.inputField2 {
-  align-self: stretch;
-  flex: 1;
+.inputField2,
+.loopController2 {
   display: flex;
-  justify-content: flex-start;
-  max-width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 .inputField2 {
+  height: 49px;
+  width: 300px;
   border-radius: var(--br-7xs);
   background-color: var(--gray-scale-white);
   border: 1px solid var(--gray-scale-gray-100);
   box-sizing: border-box;
-  flex-direction: row;
-  align-items: center;
-  padding: var(--padding-sm) var(--padding-mini);
+  padding: var(--padding-sm) var(--padding-base);
+  gap: var(--gap-xl);
+}
+.field1,
+.loopController2 {
+  align-self: stretch;
 }
 .field1 {
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
+  justify-content: flex-start;
   gap: var(--gap-xs);
 }
 .checkbox {
@@ -149,10 +175,9 @@
 }
 .field {
   align-self: stretch;
-  flex: 1;
   flex-direction: column;
+  padding: 0 var(--padding-6xl) 0 0;
   gap: var(--gap-base);
-  max-width: 100%;
 }
 .normal {
   position: relative;
@@ -205,7 +230,6 @@
 }
 .createAccount,
 .createAccountWrapper {
-  align-self: stretch;
   display: flex;
   justify-content: center;
   box-sizing: border-box;
@@ -224,7 +248,7 @@
   gap: var(--gap-xl);
 }
 .createAccountWrapper {
-  height: 512px;
+  width: 1782px;
   flex-direction: row;
   align-items: flex-start;
   padding: 0 var(--padding-xl) var(--padding-61xl);
@@ -233,6 +257,11 @@
   .createAccount1 {
     font-size: var(--font-size-7xl);
     line-height: 31px;
+  }
+  .loopController,
+  .loopController1,
+  .loopController2 {
+    flex-wrap: wrap;
   }
   .createAccountWrapper {
     padding-bottom: var(--padding-33xl);

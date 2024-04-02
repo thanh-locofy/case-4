@@ -12,7 +12,7 @@ const FrameComponent1: FunctionComponent = () => {
             alt=""
             src="/home1-1.svg"
           />
-          <img className={styles.groupIcon} alt="" src="/group@2x.png" />
+          <img className={styles.groupIcon} alt="" src="/group1@2x.png" />
           <div className={styles.home}>Home</div>
           <img className={styles.vectorIcon} alt="" src="/vector.svg" />
           <div className={styles.home1}>Home</div>

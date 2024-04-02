@@ -34,6 +34,7 @@ body {
   --gray-scale-gray-50: #f2f2f2;
   --gray-scale-gray-600: #666;
   --gray-scale-gray-700: #4d4d4d;
+  --color-black: #000;
   --branding-success-dark: #2c742f;
   --gray-scale-gray-200: #ccc;
 
@@ -81,6 +82,7 @@ body {
   --padding-4xl: 23px;
   --padding-13xl: 32px;
   --padding-2xl: 21px;
+  --padding-6xl: 25px;
   --padding-29xl: 48px;
   --padding-5xs-9: 7.9px;
   --padding-lg: 18px;
